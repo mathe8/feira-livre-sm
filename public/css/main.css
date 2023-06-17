@@ -10,7 +10,6 @@ p {
 }
 
 h1 {
-  font-family: 'Crete Round', serif;
   font-weight: bold;
   color: #444;
   font-size: 35px;
@@ -81,6 +80,7 @@ small {
 }
 header {
   height: 40px;
+  padding: 20px;
 }
 
 header h1 {
@@ -98,7 +98,12 @@ header nav {
 header nav ul li {
   float: left;
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 15px;
+}
+
+header nav ul span {
+  display: inline-block;
+  margin-top: 5.5px;
 }
 
 header nav ul li a {
@@ -110,15 +115,21 @@ header nav ul li a {
 }
 
 #image-principal {
-  height: 300px;
+  height: 400px;
   padding-top: 1px;
-  background: #e8eced url('../images/marcelo.jpg') no-repeat center;
+  background: #e8eced url('../images/feirinha.png') no-repeat center;
 }
 
-#image-principal div h2 {
-  margin: 250px 0 5px 0;
-  text-align: left;
+#image-principal div h4 {
+  color: white;
+  font-size: 20px;
+  margin: 345px 0 5px 0;
+  text-align: center;
   vertical-align: bottom;
+  background-color: black;
+  opacity: 0.8;
+  padding: 10px 10px;
+  border-radius: 10px;
 }
 .button-1 {
   display: block;
@@ -138,37 +149,101 @@ header nav ul li a {
   color: #fff;
 }
 
-#profissoes ul {
-  margin: 20px 0;
+#produtos ul {
+  margin: 50px 0;
 }
 
-#profissoes ul li {
+#produtos ul li {
   width: 300px;
-  padding-top: 140px;
+  padding-top: 160px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
   float: left;
-  margin-right: 10px;
+  margin: 10px 10px;
   text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
 }
 
-#profissoes ul li.profissao-2 {
-  background: url('../images/features-icon-1.png') no-repeat top center;
+#produtos ul li.produtos-1 {
+  background: url('../images/image2.png') no-repeat top center;
+  background-size: 120px;
 }
 
-#profissoes ul li.profissao-1 {
-  background: url('../images/features-icon-2.png') no-repeat top center;
+#produtos ul li.produtos-2 {
+  background: url('../images/image3.png') no-repeat top center;
+  background-size: 160px;
 }
 
-#profissoes ul li.profissao-3 {
-  background: url('../images/features-icon-3.png') no-repeat top center;
+#produtos ul li.produtos-3 {
+  background: url('../images/image4.png') no-repeat top center;
+  background-size: 140px;
 }
 
-#conteudo-principal {
+#produtos ul li.produtos-4 {
+  background: url('../images/image5.png') no-repeat top center;
+  background-size: 200px;
+}
+
+#produtos ul li.produtos-5 {
+  background: url('../images/image10.png') no-repeat top center;
+  background-size: 160px;
+}
+
+#produtos ul li.produtos-6 {
+  background: url('../images/image11.png') no-repeat top center;
+  background-size: 180px;
+}
+
+#feirantes ul {
+  margin: 50px 0;
+}
+
+#feirantes ul li {
+  width: 300px;
+  padding-top: 160px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  float: left;
+  margin: 10px 10px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+#feirantes ul li.feirantes-1 {
+  background: url('../images/sihouette-woman.png') no-repeat top center;
+  background-size: 55px;
+  background-position: center;
+  background-position-y: 25px;
+  background-repeat: no-repeat;
+}
+
+#feirantes ul li.feirantes-2 {
+  background: url('../images/sihouette-man.png') no-repeat top center;
+  background-size: 125px;
+  background-position: center;
+  background-position-y: 20px;
+  background-repeat: no-repeat;
+}
+
+#feirantes ul li.feirantes-3 {
+  background: url('../images/sihouette-woman-2.png') no-repeat top center;
+  background-size: 55px;
+  background-position: center;
+  background-position-y: 30px;
+  background-repeat: no-repeat;
+}
+
+.conteudo-principal {
   background-color: #f8fafa;
   padding: 60px 0;
   text-align: center;
 }
 
-#conteudo-principal h3 {
+.conteudo-principal h3 {
   display: block;
   margin: 0 auto 20px auto;
   width: 400px;
@@ -176,7 +251,7 @@ header nav ul li a {
   padding: 0 0 20px 0;
 }
 
-#conteudo-principal a img {
+.conteudo-principal a img {
   margin: 20px 0;
 }
 
@@ -204,7 +279,7 @@ header nav ul li a {
 }
 
 article h4 {
-  border-bottom: 1px solid #02b8dd;
+  border-bottom: 1px solid #00c54b;
   padding-bottom: 20px;
 }
 
